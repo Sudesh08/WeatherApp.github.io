@@ -1,0 +1,115 @@
+@media (max-width:660px) and (min-width:551px){
+    .container{
+        max-width: 420px;
+    }
+    .search input{
+        height: 50px;
+        margin-right: 32px;
+    }
+    .search button{
+        width: 50px;
+        height: 50px;
+    }
+    .weather-icon {
+        width: 150px;
+    }
+    .weather h1 {
+        font-size: 65px;
+    }
+    .weather h2 {
+        font-size: 35px;
+        font-weight: 400px;
+        margin-top: 5px;
+    }
+}
+
+
+@media (max-width:550px) and (min-width:480px){
+    .container{
+        max-width: 320px;
+        /* margin-left: 42px; */
+    }
+    .search input{
+        height: 40px;
+        /* margin-right: 40px; */
+        margin-right: -45px;
+        margin-left: -15px;
+        padding-left: 15px;
+        font-size: 15px;
+    }
+    .search button{
+        width: 45px;
+        height: 40px;
+        border-radius: 30px;
+        background: orange;
+    }
+    .weather-icon {
+        width: 130px;
+    }
+    .weather h1 {
+        font-size: 60px;
+    }
+    .weather h2 {
+        font-size: 35px;
+        font-weight: 400px;
+        margin-top: 5px;
+    } 
+    .col img{
+        width: 30px;
+        margin-right: 10px;
+        margin-left: -20px;
+    }
+    .humidity,.wind{
+        font-size: 20px;
+    }
+
+} 
+
+@media (max-width:479px) and (min-width:200px){
+    .container{
+        max-width: 250px;
+    }
+    .search input{
+        height: 35px;
+        /* margin-right: 40px; */
+        margin-right: -40px;
+        margin-left: -20px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    .search button{
+        width: 40px;
+        height: 35px;
+        border-radius: 30px;
+        background: orange;
+        cursor: pointer;
+    }
+    .search button img {
+        width: 10px;
+    }
+    .weather-icon {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .weather h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .weather h2 {
+        font-size: 30px;
+        /* font-weight: 400px; */
+        margin-top: -5px;
+    } 
+    .col img{
+        width: 20px;
+        margin-right: 5px;
+        margin-left: -42px;
+    }
+    .col-right{
+        margin-left: 75px;
+    }
+    .humidity,.wind{
+        font-size: 15px;
+    }
+}
